@@ -1,7 +1,9 @@
 # bikeshareApp
 
-A simple application written in 2nd year that displays bikes to rent based on group size, as well as nearby bike docks and nearby bikes using jQuery. 
-Includes Cordova plugins showing device information and current weather (API key for weather is expired and non-functional at this time however).
+A simple application written in 2nd year of college that displays bikes to rent based on group size, as well as nearby bike docks and nearby bikes. 
+Includes plugins showing device information and current weather (API key for weather is expired and non-functional at this time however).
+
+## Tools: HTML, CSS, jQuery, Apache Cordova
 
 ## To run:
 
