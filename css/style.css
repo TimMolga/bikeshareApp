@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+}
+#title {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom:solid black;
+    text-align: center;
+    background-color: #003380;
+    color:white;
+}
+
+#groupSize, #dockDistance, #bikeDistance, #weather, #device {
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #4d94ff;
+    color:white;
+}
+#contentArea1, #contentArea2, #contentArea3, #contentArea4, #deviceInformation1, #deviceInformation2, #deviceInformation3 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 1%;
+    text-align: center;
+    border-bottom:solid black;
+    border-top:solid black;
+    background-color: #0052cc;
+    color:white;
+}
+
+h3 {
+    padding-left: 1%;
+    color:black;
+    text-align: center;
+}
+
+form {
+    padding-left: 1%;
+    text-align: center;
+
+}
+
+.hideshow{
+    font-size: 0.5em;
+}

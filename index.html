@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</head>
+
+
+<body onload='onLoad()'>
+<header id="title">
+    <h1>BIKESHARE APPLICATION</h1>
+</header>
+
+<div id="device">
+    <div id="deviceTitle">
+    <h2>YOUR DEVICE <p class="hideshow">(Click to Hide or Show)</p></h2>
+        </div>
+    <div id="deviceContent">
+    <h3>Battery Information:</h3>
+    <div id="deviceInformation1"></div>
+
+    <h3>Device Information:</h3>
+    <div id="deviceInformation2"></div>
+
+    <h3>Network Information:</h3>
+    <div id="deviceInformation3"></div>
+    </div>
+</div>
+
+<div id="weather">
+    <div id="weatherTitle">
+    <h2>CURRENT WEATHER <p class="hideshow">(Click to Hide or Show)</p></h2>
+        </div>
+    <div id="contentArea1"></div>
+</div>
+
+<div id="groupSize">
+    <div id="groupTitle">
+        <h2>LOCATIONS THAT SUPPORT LARGE GROUPS <p class="hideshow">(Click to Hide or Show)</p></h2>
+    </div>
+    <div id="groupSizeContent">
+        <form>
+            <label>Select Group Size:</label>
+            <select id="groupList">
+                <option value="0" selected>Select a group size</option>
+                <option value="1">>5 People</option>
+                <option value="2">5 - 10 People</option>
+                <option value="3">10 - 15 People</option>
+                <option value="4"><15 People</option>
+            </select>
+            <br><br>
+        </form>
+        <div id="contentArea2"></div>
+    </div>
+</div>
+
+<div id="dockDistance">
+    <div id="dockTitle">
+        <h2>NEARBY DOCKS <p class="hideshow">(Click to Hide or Show)</p></h2>
+    </div>
+    <div id="dockDistanceContent">
+    <form>
+        <label>Select Group Size:</label>
+        <select id="dockDistanceList">
+            <option value="0" selected>Select a distance</option>
+            <option value="1"><10 KM</option>
+            <option value="2">20 KM</option>
+            <option value="3">30 KM</option>
+            <option value="4">>40 KM</option>
+        </select>
+        <br><br>
+    </form>
+    <div id="contentArea3"></div>
+    </div>
+</div>
+
+<div id="bikeDistance">
+    <div id="bikeTitle">
+        <h2>NEARBY BIKES <p class="hideshow">(Click to Hide or Show)</p></h2>
+    </div>
+    <div id="bikeDistanceContent">
+        <form>
+            <label>Select Group Size:</label>
+            <select id="bikeDistanceList">
+                <option value="0" selected>Select a distance</option>
+                <option value="1"><10 KM</option>
+                <option value="2">20 KM</option>
+                <option value="3">30 KM</option>
+                <option value="4">>40 KM</option>
+            </select>
+            <br><br>
+        </form>
+    <div id="contentArea4"></div>
+    </div>
+</div>
+
+</body>
+</html>
