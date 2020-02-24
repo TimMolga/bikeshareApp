@@ -7,8 +7,8 @@ Includes Cordova plugins showing device information and current weather (API key
 
 On command line, run:
 1. `npm install -g cordova`
-2. `cordova create `<projectname>``
-3. `cd `<projectname>``
+2. `cordova create <projectname>`
+3. `cd <projectname>`
 4. Copy and paste the files in this repo 
 5. `cordova platform add browser (ios, android)`
 6. `cordova run browser`
