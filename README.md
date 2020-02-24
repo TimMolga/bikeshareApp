@@ -19,6 +19,8 @@ On command line, run:
 
 ## About:
 
+All bikeshare data is taken from the json file.
+
 In the device info section, see details about the device your are viewing the app on.
 
 In the group section, use the dropdown to search for bike docks that can handle the noted group sizes.
